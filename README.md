@@ -21,12 +21,12 @@ pip install mluno
 
 - **Data Simulation and Splitting**
   
-  ```python
+```python
   from mluno.data import make_line_data, split_data
   
   X, y = make_line_data(n=100)
   X_train, X_test, y_train, y_test = split_data(X, y)
-  ```
+```
   
 - **Regression Methods**
   
